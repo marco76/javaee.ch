@@ -1,3 +1,8 @@
+---
+layout: post
+title: Complete Java EE and Angular example
+---
+
 ##### Complete Java EE and Angular example
 
 *New demo available here*: <http://javademo.io> - <https://github.com/marco76/java-demo> - <http://javaee.ch/2017/04/06/java-angular-demo/>
@@ -47,15 +52,16 @@ The result is not particularly fancy. It show the result of a call to a Java RES
 #### How it works As for the previous
 
 [Angular/Spring project][2] we have a main maven project with 2 modules :
-
+```xml
     <modules>
         <module>client</module>
         <module>server</module>
     </modules>
-    
+    ```    
 
 Client: contains the Angular project generated using Angular CLI (= top quality) Server: contains the Java EE project (very minimalistic, 1 REST service and 1 filter to avoid the CORS restrictions during the development). When we build the final package the angular project is build and the result saved in a directory that will be integrated in the Java EE build. During the development the two separate projects are deployed. For the production only 1 deployable war is generated. Here the details of the maven build phase:
 
+```xml
     <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
@@ -93,6 +99,6 @@ Client: contains the Angular project generated using Angular CLI (= top quality)
             </execution>
         </executions>
     </plugin>
-
+```
  [1]: https://cli.angular.io
  [2]: http://javaee.ch/2016/02/23/spring-boot-angularjs-2-typescript-hello-world-tutorial/
