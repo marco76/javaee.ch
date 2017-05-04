@@ -40,7 +40,8 @@ The scope of the application is limited (1 angular route, 1 http service, only a
 
 ### The result
 
-![result](http://javaee.ch/wp-content/uploads/2017/03/payara_easy.png")
+![](http://javaee.ch/wp-content/uploads/2017/03/payara_easy.png)
+
 The result is not particularly fancy. It show the result of a call to a Java REST service ... but hey, you have a ready to go configuration based on Java EE and Angular that follows the Angular best practices.
 
 #### How it works As for the previous
