@@ -1,3 +1,5 @@
+
+
 ## Welcome to the new Javaee.ch
 
 This pages were hosted on JavaEE.ch
@@ -9,5 +11,5 @@ The Blog is about Java (JavaEE and Angular + React). It collect experiences of d
 
 ### Articles about JavaEE and Angular
 
-[Angular CLI, Java EE and REST : tutorial and quick starter code for Hello World](./_posts/2016-01-05-java-demo.md))
+[Angular CLI, Java EE and REST : tutorial and quick starter code for Hello World](/docs/2016-01-05-java-demo))
 
