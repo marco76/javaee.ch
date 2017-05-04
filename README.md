@@ -9,5 +9,5 @@ The Blog is about Java (JavaEE and Angular + React). It collect experiences of d
 
 ### Articles about JavaEE and Angular
 
-[Angular CLI, Java EE and REST : tutorial and quick starter code for Hello World]({% post_url 2016-01-05-java-demo %}))
+[Angular CLI, Java EE and REST : tutorial and quick starter code for Hello World](./_posts/2016-01-05-java-demo.md))
 
